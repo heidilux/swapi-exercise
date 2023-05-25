@@ -61,9 +61,3 @@ using the
 Endpoint #2 would be `/films/hope/species`, or if you prefer, `/films/menace/species`
 
 And #3 would be `/planets/population`
-
----
-
-### License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).

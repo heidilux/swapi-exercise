@@ -31,9 +31,4 @@ class SwapiApiService
 
         return true;
     }
-
-    public function nextPage(string $url): PromiseInterface|Response
-    {
-        return Http::get($url);
-    }
 }
