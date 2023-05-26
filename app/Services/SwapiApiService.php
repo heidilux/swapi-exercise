@@ -2,15 +2,12 @@
 
 namespace App\Services;
 
-use App\Traits\HandlesJsonResponse;
 use Illuminate\Support\Facades\Http;
 use Illuminate\Http\Client\Response;
 use GuzzleHttp\Promise\PromiseInterface;
 
 class SwapiApiService
 {
-    use HandlesJsonResponse;
-
     private const BASE_URL = 'https://swapi.dev/api/';
 
     public function get(string $resource): PromiseInterface|Response
